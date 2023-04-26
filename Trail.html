@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>THE SKINCARE PAL</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet">
+        <link href="logo.jpg" rel="icon">
+    </head>
+    <body>
+        <main>
+            <div class="overlay">
+                <div class="inline">
+                    <img src="logo.jpg" class="size">
+                    <h1> JANS - YOUR SKINCARE PALS</h1>
+                </div>
+            <form id="myForm" action="Result.html" method="get">
+                <div class="container">
+                    <div class="qsn q1">
+                        <label class="no1">1.What is your age?</label>
+                        <label><input type="radio" id="age1" name="age" value="a1">18-25</label>
+                        <label><input type="radio" id="age2" name="age" value="b1">26-30</label>
+                        <label><input type="radio" id="age3" name="age" value="c1">30+</label>
+                    </div>
+                    <div class="qsn q2">
+                        <label class="no2">2. What Is Your Gender?</label>
+                        <label><input type="radio" id="Female" name="gender" value="a2">Female</label>
+                        <label><input type="radio" id="Male" name="gender" value="b2">Male</label>
+                    </div>
+                    <div class="qsn q3">
+                        <label class="no3">3.Please Select Your Concerns:</label>
+                        <label><input type="radio" id="issue1" name="issue" value="a3">Acne</label>
+                        <label><input type="radio" id="issue2" name="issue" value="b3">Issues With Blemishes, Colour & Tone</label>
+                        <label><input type="radio" id="issue3" name="issue" value="c3">No Issues</label>
+                    </div>
+                    <div class="qsn q4">
+                        <label class="no4">4.Describe The Fine Lines Around Your Eyes And Forehead</label>
+                        <label><input type="radio" id="flines1" name="flines" value="a4">No Fine Lines</label>
+                        <label><input type="radio" id="flines2" name="flines" value="b4">Few And Visible</label>
+                        <label><input type="radio" id="flines3" name="flines" value="c4">Deep And Prominent</label>
+                    </div>
+                    <div class="qsn q5">
+                        <label class="no5">5.Describe The Wrinkles Around Your Eyes And Forehead</label>
+                        <label><input type="radio" id="wrinkles1" name="wrinkles" value="a5">No Wrinkles</label>
+                        <label><input type="radio" id="wrinkles2" name="wrinkles" value="b5">Prominent Wrinkles</label>
+                        <label><input type="radio" id="wrinkles3" name="wrinkles" value="c5">Deep And Prominent Wrinkles</label>
+                    </div>
+                    <div class="qsn q6">
+                        <label class="no6">6.  Would You Say Your Skin Is Firm Or Sagging?</label>
+                        <label><input type="radio" id="firm1" name="firm" value="a6">I Have Generally Firm Skin</label>
+                        <label><input type="radio" id="firm2" name="firm" value="b6">My Skin Is Sagging</label>
+                        <label><input type="radio" id="firm3" name="firm" value="c6">My Skin Is Heavily Sagging</label>
+                    </div>
+                    <div class="qsn q7">
+                        <label class="no7">7. Are There Any Dry Areas Or Patches On Your Face?</label>
+                        <label><input type="radio" id="dry1" name="dry" value="a7">No Dry Patches</label>
+                        <label><input type="radio" id="dry2" name="dry" value="b7">Less Than 4 Dry Patches</label>
+                        <label><input type="radio" id="dry3" name="dry" value="c7">More Than 4 Dry Patches</label>
+                    </div>
+                    <div class="qsn q8">
+                        <label class="no8">8. Do You Have Enlarged Pores?</label>
+                        <label><input type="radio" id="pore1" name="pore" value="a8">My Pores Are Generally Normal Sized</label>
+                        <label><input type="radio" id="pore2" name="pore" value="b8">I Have A Few Enlarged Pores</label>
+                        <label><input type="radio" id="pore3" name="pore" value="c8">I Have Many Enlarged Pores</label>
+                    </div>
+                    <div class="qsn q9">
+                        <label class="no9">9. Have You Ever Been Diagnosed With Any Eczemas On Your Face?</label>
+                        <label><input type="radio" id="ecz1" name="ecz" value="a9">No</label>
+                        <label><input type="radio" id="ecz2" name="ecz" value="b9">Yes</label>
+                    </div>
+                    <div class="qsn q10">
+                        <label class="no10">10. Are You Currently Using Any Prescription Skin Lightening Creams That Contain Steroids / Tretinoin / Hydroquinone?</label>
+                        <label><input type="radio" id="cream1" name="cream" value="a10">No</label>
+                        <label><input type="radio" id="cream2" name="cream" value="b10">Yes</label>
+                    </div>
+                    <div class="qsn q11">
+                        <label class="no11">11. Does Your Skin React On Application Of Skin Care Products?</label>
+                        <label><input type="radio" id="react1" name="react" value="a11">Rarely/Never</label>
+                        <label><input type="radio" id="react2" name="react" value="b11">Daily/Often</label>
+                    </div>
+                    <div class="qsn q12">
+                        <label>12. What Does Your Skin Usually Feel Like At Midday?</label>
+                        <label><input type="radio" id="feel1" name="feel" value="a12">Smooth And Bright</label>
+                        <label><input type="radio" id="feel2" name="feel" value="b12">Neither Smooth Nor Rough</label>
+                        <label><input type="radio" id="feel3" name="feel" value="c12">Rough And Dull</label>
+                    </div>
+                    <div class="qsn q13">
+                        <label>13. The Skin On The Forehead & Nose Bridge Feel?</label>
+                        <label><input type="radio" id="nose1" name="nose" value="a13">Normal</label>
+                        <label><input type="radio" id="nose2" name="nose" value="b13">Dry</label>
+                        <label><input type="radio" id="nose3" name="nose" value="c13">Oily</label>
+                    </div>
+                    <div class="qsn q14">
+                        <label>14. The Skin On The Sides Of Your Nose Feels</label>
+                        <label><input type="radio" id="noseside1" name="noseside" value="a14">Normal</label>
+                        <label><input type="radio" id="noseside2" name="noseside" value="b14">Dry</label>
+                        <label><input type="radio" id="noseside3" name="noseside" value="c14">Oily</label>
+                    </div>
+                    <div class="qsn q15">
+                        <label>15. The Skin On Your Cheeks Feels</label>
+                        <label><input type="radio" id="cheek1" name="cheek" value="a15">Normal</label>
+                        <label><input type="radio" id="cheek2" name="cheek" value="b15">Dry</label>
+                        <label><input type="radio" id="cheek3" name="cheek" value="c15">Oily</label>
+                    </div>
+                    <div class="qsn q16">
+                        <label>16. Which Of The Following Is True For Your Skin?</label>
+                        <label><input type="radio" id="skin1" name="skin" value="a16">Part Oily And Part Normal (Combination Skin)</label>
+                        <label><input type="radio" id="skin2" name="skin" value="b16">Neither Very Oily Nor Very Dry</label>
+                        <label><input type="radio" id="skin3" name="skin" value="c16">Oily Forehead And Nose Bridge (T Zone)</label>
+                        <label><input type="radio" id="skin4" name="skin" value="d16">None Of The Above</label>
+                    </div>
+                    <div class="qsn q17">
+                        <label>17. How Often Does Your Skin Flush (Becomes Red) Easily With Temperature?</label>
+                        <label><input type="radio" id="flush1" name="flush" value="a17">Rarely/Never</label>
+                        <label><input type="radio" id="flush2" name="flush" value="b17">Daily/Often</label>
+                    </div>
+                    <a href="Result.html">
+                    <input type="button" value="Submit" id="submit-button" onclick="storeValue()" class="submit">
+                </a>
+                </div>
+            </form> 
+            </div>
+            <script>
+                function storeValue(){
+                    var q1 = document.querySelector('input[name="age"]:checked').value;
+                    localStorage.setItem("q1",q1);
+                    var q2 = document.querySelector('input[name="gender"]:checked').value;
+                    localStorage.setItem("q2",q2);
+                    var q3 = document.querySelector('input[name="issue"]:checked').value;
+                    localStorage.setItem("q3",q3);
+                    var q4 = document.querySelector('input[name="flines"]:checked').value;
+                    localStorage.setItem("q4",q4);
+                    var q5 = document.querySelector('input[name="wrinkles"]:checked').value;
+                    localStorage.setItem("q5",q5);
+                    var q6 = document.querySelector('input[name="firm"]:checked').value;
+                    localStorage.setItem("q6",q6);
+                    var q7 = document.querySelector('input[name="dry"]:checked').value;
+                    localStorage.setItem("q7",q7);
+                    var q8 = document.querySelector('input[name="pore"]:checked').value;
+                    localStorage.setItem("q8",q8);
+                    var q9 = document.querySelector('input[name="ecz"]:checked').value;
+                    localStorage.setItem("q9",q9);
+                    var q10 = document.querySelector('input[name="cream"]:checked').value;
+                    localStorage.setItem("q10",q10);
+                    var q11 = document.querySelector('input[name="react"]:checked').value;
+                    localStorage.setItem("q11",q11);
+                    var q12 = document.querySelector('input[name="feel"]:checked').value;
+                    localStorage.setItem("q12",q12);
+                    var q13 = document.querySelector('input[name="nose"]:checked').value;
+                    localStorage.setItem("q13",q13);
+                    var q14 = document.querySelector('input[name="noseside"]:checked').value;
+                    localStorage.setItem("q14",q14);
+                    var q15 = document.querySelector('input[name="cheek"]:checked').value;
+                    localStorage.setItem("q15",q15);
+                    var q16 = document.querySelector('input[name="skin"]:checked').value;
+                    localStorage.setItem("q16",q16);
+                    var q17 = document.querySelector('input[name="flush"]:checked').value;
+                    localStorage.setItem("q17",q17);
+                }
+            </script>
+        </main>
+    </body>
+</html>
